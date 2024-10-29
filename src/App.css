@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pop-click {
+  transform: scale(1.5);
+  transition: all 50ms ease-in-out;
+}
+
+.rot-1 {
+  transform: scale(2.2) rotate(-10deg);
+}
+
+.rot-2 {
+  transform: scale(2.2) rotate(-5deg);
+}
+
+.rot-3 {
+  transform: scale(2.2) rotate(0deg);
+}
+
+.rot-4 {
+  transform: scale(2.2) rotate(5deg);
+}
+
+.rot-5 {
+  transform: scale(2.2) rotate(10deg);
+}
+
+.rot-to {
+  transform: scale(1.5);
+}
